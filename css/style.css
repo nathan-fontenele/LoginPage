@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#img-contain{
+    width: 100%;
+    height: 100vh;
+    background: #fff url("../assets/img/img02.png") no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+
+#form-side{
+    width: 30%;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f1f1f1c0;
+    box-shadow: 10px 10px 60px 20px rgba(0, 0, 0, 0.664);
+    position: relative;
+    margin-top: -100vh;
+    margin-left: 70%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#form-side span{
+    font-size: .9rem;
+}
+
+
+#form-user-login{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form-user-login > input{
+    padding: 10px;
+    width: 90%;
+    font: normal normal 1rem "Helvetica";
+    margin: 15px 0;
+    border-radius: 10px;
+    border: none;
+}
+
+#form-user-login > #login-btn{
+    background-color: rgb(88, 173, 107);
+    width: 50%;
+    font-weight: bolder;
+    color: #fff;
+    cursor: pointer;
+}
+
+#form-user-login > #login-btn:hover{
+    background-color: rgb(53, 105, 65);
+    transition: .5s;
+}
+
+#form-user-login > input:hover{
+    background-color: #00000056;
+    transition: .5s;
+}
+
+#form-user-login > input:focus{
+    background-color: #00000056;
+    transition: .5s;
+}
+
+@media screen and (max-width:689px) {
+    #form-side{
+        width: 50%;
+        height: 100vh;
+        padding: 20px;
+        box-sizing: border-box;
+        background-color: #f1f1f1c0;
+        box-shadow: 10px 10px 60px 20px rgba(0, 0, 0, 0.664);
+        position: relative;
+        margin-top: -100vh;
+        margin-left: 50%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #form-side h1{
+        font-size: 1.5rem;
+    }
+
+    #form-side span{
+        font-size: .9rem;
+    }
+}
