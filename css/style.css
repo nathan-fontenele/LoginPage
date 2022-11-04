@@ -18,6 +18,12 @@ body{
     position: relative;
 }
 
+#textos{
+    position: relative;
+    bottom: 40px;
+    margin: 0 20px;
+}
+
 #form-side{
     width: 30%;
     height: 100vh;
@@ -87,7 +93,7 @@ body{
 @media screen and (max-width:689px) {
     #form-side{
         width: 70%;
-        height: 70vh;
+        height: 60vh;
         padding: 20px;
         box-sizing: border-box;
         background-color: #f1f1f1c0;
