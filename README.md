@@ -13,4 +13,4 @@ Login page for the purpose of developing the design and training practices for p
  - HTML
  - CSS
 ## Link para o projeto - Link to the project
-[Clique aqui - click here](https://nathan-fontenele.github.io/LoginPage/)
+[Clique aqui - click here](https://nathan-fontenele.github.io/LoginPage/Index.html)
