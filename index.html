@@ -14,15 +14,15 @@
         <h2>Welcome back! Please enter your details</h2>
 
         <form id="login-form">
-            <label for="email" id="email">E-mail</label>
+            <label for="email" id="email-label">E-mail</label>
             <input type="email" name="email" id="email" placeholder="Enter your e-mail">
 
-            <label for="password" id="password">Password</label>
+            <label for="password" id="password-label">Password</label>
             <input type="password" name="password" id="password" placeholder="Enter your password">
 
             <div id="remember-check">
-                <div>
-                    <input type="checkbox" name="remember" id="remember">
+                <div id="remember">
+                    <input type="checkbox" name="remember">
                     <label for="remember">Remember for 30 days</label>
                 </div>
 
@@ -32,7 +32,7 @@
             </div>
 
             <div id="btn-sign-in">
-                <button class="btn" id="sign-in">Sign in</button>
+                <button submit="verificaEmail" class="btn" id="sign-in">Sign in</button>
      
                 <button class="btn" id="google-btn">
                     <svg id="google-logo" viewBox="0 0 128 128">
@@ -45,5 +45,6 @@
 
     <div id="right-tab"></div>
 
+    <script src="./assets/js/main.js"></script>
 </body>
 </html>

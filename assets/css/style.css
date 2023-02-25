@@ -139,4 +139,8 @@ button{
         height: 90vh;
         border-radius: 10px;
     }
+
+    #remember label, #forgot{
+        font-size: clamp(.9rem, 1vw, 1rem);
+    }
 }
